@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.modal {
+  text-align: center;
+  background-color: lightseagreen;
+  display: none;
+  position: absolute;
+  top: 5px;
+  right: 50%;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+  border-radius: 35%;
+}
+
+.modal button :hover {
+  cursor: pointer;
+  width: 150px;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
